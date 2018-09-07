@@ -1,0 +1,80 @@
+
+
+body{
+	background: green;
+	background-size: cover;
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-bottom:0%;
+	text-align: center;
+}
+
+
+#backgroundCanvas{
+	width: 120vh;
+	height: 90vh;
+	position:absolute;
+}
+
+#rocketCanvas{
+	width: 120vh;
+	height: 90vh;
+	position: absolute;
+}
+
+#fireCanvas{
+	width: 120vh;
+	height: 90vh;
+	position: absolute;
+}
+
+#canvasGroup{
+	width: 120vh;
+	height: 90vh;
+	display: inline-block;
+	text-align: left;
+}
+
+#GPScanvas{
+	width: 60vh;
+	height: 90vh;
+	
+	background-color: lightblue;
+	
+}
+
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+
+
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#buttonDiv{
+	float: right;
+}
+
+
+input[type="button"]{
+	width: 100%;
+}
+
+
+.hide {
+	display: none;
+}
+
+#dialogFormMenu {
+	width: 50vh;
+	height: 50vh;
+}
+

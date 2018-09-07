@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style/jquery-ui.min.css"  >
+		<link rel="stylesheet" type="text/css" href="style/style.css"  >
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type = "text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<title>
+			SpaceSim
+		</title>
+	</head>
+	
+	<body>	
+		<div id="canvasGroup">
+			<canvas id="backgroundCanvas" ></canvas>
+			<canvas id="rocketCanvas"></canvas>
+			<canvas id="fireCanvas"></canvas>
+		</div>
+		
+		<canvas id="GPScanvas" ></canvas>
+
+		
+	  		<div id="dialogFormMenu" title="SpaceSim Menu">
+	  			<p id="dialogFormMenuHelpText"><p>
+	  			<p id="dialogFormMenuRocketMassText"><p>
+	  			<form>
+	      			<input type="text" name="rocketMassInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuRocketLengthText"><p>
+	  			<form>
+	      			<input type="text" name="rocketLengthInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuThrustSettingText"><p>
+	  			<form>
+	      			<input type="text" name="thrustSettingInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuPlanetMassText"><p>
+	  			<form>
+	      			<input type="text" name="planetMassInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuPlanetRadiusText"><p>
+	  			<form>
+	      			<input type="text" name="planetRadiusInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuAngleText"><p>
+	  			<form>
+	      			<input type="text" name="angleInput" ><br>
+	  			</form>
+	  			<p id="dialogFormMenuPhysics"><p>
+			</div>
+			<div id="dialogFormCrash" title="YOU CRASHED!!!!!">
+	  			<p id="dialogFormCrashText"><p>
+			</div>
+
+	</body>
+</html>
